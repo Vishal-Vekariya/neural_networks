@@ -3,6 +3,8 @@ from src.features.build_features import create_dummy_vars
 from src.visualization.visualize import scattor_plot, loss_curve, sub_plot
 from src.models.train_model import neural_network
 from src.models.predict_model import evaluate_model
+import warnings
+warnings.filterwarnings("ignore")
 
 if __name__ == "__main__":
     # Load and preprocess the data
